@@ -97,7 +97,8 @@ export const config: Options.Testrunner = {
   // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
-  baseUrl: "http://127.0.0.1:8080",
+  baseUrl:
+    "https://calculator-app-mahi-gaming-interview.vercel.app/?_vercel_share=K24lAcYrl8rnc3uIUItfoA3VSCe9vdOt",
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,
