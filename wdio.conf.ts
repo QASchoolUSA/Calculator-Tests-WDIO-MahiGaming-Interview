@@ -102,8 +102,7 @@ export const config: Options.Testrunner = {
   // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
-  baseUrl:
-    "https://calculator-app-mahi-gaming-interview.vercel.app/?_vercel_share=K24lAcYrl8rnc3uIUItfoA3VSCe9vdOt",
+  baseUrl: `https://calculator-app-mahi-gaming-interview.vercel.app/?_vercel_share=K24lAcYrl8rnc3uIUItfoA3VSCe9vdOt`,
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,
@@ -243,7 +242,7 @@ export const config: Options.Testrunner = {
    * @param {*}       result.result    return object of test function
    * @param {number}  result.duration  duration of test
    * @param {boolean} result.passed    true if test has passed, otherwise false
-   * @param {object}  result.retries   information about spec related retries, e.g. `{ attempts: 0, limit: 0 }`
+   * @param {object}  result.retries   information about spec related retries, e.g. `{ attempts: 0, limit: 0 } `
    */
   // afterTest: function(test, context, { error, result, duration, passed, retries }) {
   // },
